@@ -1,5 +1,6 @@
 # id-kaart
 ID-kaarditarkvara paigaldamise skriptid / ID-card installation scripts
+Lisateave eesti keeles - https://viki.pingviin.org/ID-kaart_Manjaro_Linuxis
 
 ## manjaro-id-kaart.sh
 * mõeldud kasutamiseks Manjaro Linuxis. Sobib ka Arch Linuxile jt selle põhjal tehtud distrotele.
