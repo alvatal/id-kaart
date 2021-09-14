@@ -77,8 +77,9 @@ modutil -dbdir sql:$HOME/.pki/nssdb -add opensc-pkcs11 -libfile onepin-opensc-pk
 # kui moodul on lisatud, siis teist korda sama moodulit lisada ei saa
 # siis tuleb kõigepealt eemaldada
  
-#############################
-# PC/SC TEENUSE KÄIVITAMINE #
-#############################
+#########################################
+# PC/SC TEENUSE LUBAMINE JA KÄIVITAMINE #
+#########################################
+sudo systemctl enable pcscd.socket
 sudo systemctl start pcscd.socket
 # vajadusel teenuse taaskäivitamiseks asendada start sõnaga restart
