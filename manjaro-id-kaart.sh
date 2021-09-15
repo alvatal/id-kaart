@@ -82,4 +82,3 @@ modutil -dbdir sql:$HOME/.pki/nssdb -add opensc-pkcs11 -libfile onepin-opensc-pk
 #########################################
 sudo systemctl enable pcscd.socket
 sudo systemctl restart pcscd.socket
-# vajadusel teenuse taaskäivitamiseks asendada start sõnaga restart
