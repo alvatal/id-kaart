@@ -5,7 +5,8 @@
 # osa käske peavad minema tööle tavakasutajana
  
 # leiame kiiremad peegelserverid
-sudo pacman-mirrors -f 5  
+# see võib teinekord põhjustada siiski segadust, lubada kui muidu ei toimi
+# sudo pacman-mirrors -f 5  
  
 # uuendame tarkvarapakettide andmebaasid ja kogu süsteemi
 # peale uuendamist tühjendame pacmani vahemälu
